@@ -49,7 +49,6 @@ Iya.addEventListener("click", function () {
         void Text.offsetWidth; 
         Text.innerHTML = "Selamat Hari Raya Idul Fitri 1445 Hijriah";
         Text.classList.add('text-animate');
-        Iya.remove();
     } else if (Iya.value == 9) {
         Text.classList.remove('text-animate');
         void Text.offsetWidth; 
@@ -58,5 +57,6 @@ Iya.addEventListener("click", function () {
         Image.style.width = '100%'; // Atur lebar gambar menjadi 100%
         Image.style.height = 'auto'; // Atur tinggi gambar menjadi auto
         Text.classList.add('text-animate');
+        Iya.remove();
     }
 });
