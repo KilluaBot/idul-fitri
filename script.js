@@ -50,5 +50,13 @@ Iya.addEventListener("click", function () {
         Text.innerHTML = "Selamat Hari Raya Idul Fitri 1445 Hijriah";
         Text.classList.add('text-animate');
         Iya.remove();
+    } else if (Iya.value == 9) {
+        Text.classList.remove('text-animate');
+        void Text.offsetWidth; 
+        Text.innerHTML = "THRnya kak!!!";
+        Image.setAttribute("src", "https://telegra.ph/file/38a5d0ce4b402ae900fc3.jpg");
+        Image.style.width = '100%'; // Atur lebar gambar menjadi 100%
+        Image.style.height = 'auto'; // Atur tinggi gambar menjadi auto
+        Text.classList.add('text-animate');
     }
 });
