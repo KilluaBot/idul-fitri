@@ -2,6 +2,13 @@ const Iya = document.querySelector(".next");
 const Text = document.getElementById("text");
 const Image = document.querySelector("#image-gif");
 
+window.onload = function() {
+    const audio = document.getElementById('audio');
+    audio.muted = false; // Mengaktifkan suara setelah halaman dimuat
+    audio.play();
+};
+
+
 Iya.addEventListener("click", function () {
     Iya.value = parseInt(Iya.value) + 1;
     Text.classList.remove('text-animate');
