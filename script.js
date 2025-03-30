@@ -47,12 +47,12 @@ Iya.addEventListener("click", function () {
         Image.setAttribute("src", "https://c.tenor.com/57JSPYRo0k8AAAAj/lebaran-selamat-lebaran.gif");
         Text.classList.remove('text-animate');
         void Text.offsetWidth; 
-        Text.innerHTML = "Selamat Hari Raya Idul Fitri 1447 Hijriah";
+        Text.innerHTML = "Selamat Hari Raya Idul Fitri 1446 Hijriah";
         Text.classList.add('text-animate');
     } else if (Iya.value == 9) {
         Text.classList.remove('text-animate');
         void Text.offsetWidth; 
-        Text.innerHTML = "THRnya kak!!!";
+        Text.innerHTML = "THRnya kak!!! HEHEHE";
         Image.setAttribute("src", "https://telegra.ph/file/38a5d0ce4b402ae900fc3.jpg");
         Image.style.width = '100%'; // Atur lebar gambar menjadi 100%
         Image.style.height = 'auto'; // Atur tinggi gambar menjadi auto
