@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <audio autoplay loop muted>
+    <audio id="background-audio" autoplay loop muted>
   <source src="audio.mp3" type="audio/mpeg">
   Browser Anda tidak mendukung elemen audio.
-    </audio>
-    <script>
+</audio>
+
+<script>
   window.addEventListener('load', function() {
-    let audio = new Audio('audio.mp3');
-    audio.loop = true;
+    var audio = document.getElementById('background-audio');
+    audio.muted = false;
     audio.play();
   });
-    </script>
+</script>
     <title>Idul Fitri - 1446 Hijriah</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Petemoss&family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
